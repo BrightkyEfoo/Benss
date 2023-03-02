@@ -26,7 +26,7 @@ function App() {
       <RootContext.Provider value={{navigationRef}}>
         <NavigationContainer ref={navigationRef}>
           <Stack.Navigator
-            initialRouteName="Home"
+            initialRouteName="Contact"
             screenOptions={{
               headerShown: false,
             }}>

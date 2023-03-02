@@ -19,7 +19,7 @@ const NavBar = () => {
       <NavButton ownedRoute={'Home'} icon={'home'} />
       <NavButton ownedRoute={'About'} icon={'info'} nonNav = {true} iconType={'Entypo'} />
       <NavButton ownedRoute={'Forfaits'} nonNav = {true} icon={'cash'} />
-      <NavButton ownedRoute={'Contact'} nonNav = {true} icon={'people'} />
+      <NavButton ownedRoute={'Contact'} icon={'people'} />
       <NavButton ownedRoute={'News & Blogs'} nonNav = {true} icon={'home'} />
     </View>
   );
